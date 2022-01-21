@@ -1,0 +1,180 @@
+/* body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+} */
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.666;
+    background: #c0d2d4;
+    color: #555;
+}
+
+h1 {
+    text-align: center;
+}
+
+.emoji-card {
+    margin: 55px;
+}
+
+.emoji-card-hover {
+    text-align: center;
+    height: fit-content;
+    transition: all 2s;
+}
+
+.copyRight {
+    text-align: center;
+}
+
+.header {
+    padding: 5px 15px;
+    background: #2ec2b0;
+}
+
+.emojiCardHeader {
+    margin-left: -16px;
+    margin-right: -16px;
+    background: #B9FFFC;
+}
+
+.displayPara {
+    display: block;
+    transition: all 2s;
+}
+
+p {
+    display: none;
+}
+
+.backgroundBlur {
+    filter: blur(4px);
+    transition: all 2s;
+}
+
+.hoverCheck {
+    position: absolute;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 0 50px #26bbd9;
+    background-color: transparent;
+    transition: all 1000ms ease-in-out;
+}
+
+
+/* .targetEmojiCard:hover p {
+    display: block;
+    opacity: 1;
+}
+
+.targetEmojiCard::before,
+.targetEmojiCard::after {
+    content: "";
+    position: absolute;
+    z-index: -10;
+    transition: content 1s;
+}
+
+.targetEmojiCard::before {
+    top: 0;
+}
+
+.targetEmojiCard:hover::before {
+    transform: translateY(-20px);
+}
+
+.targetEmojiCard::after {
+    bottom: 10px;
+    height: 60%;
+    border-radius: 0 0 15px 15px;
+}
+ */
+
+
+/* 
+
+h1 {
+    font-weight: 900;
+    font-size: 500%;
+    text-align: center;
+    margin-top: 4rem;
+    color: #fff;
+    line-height: 1.2;
+    position: relative;
+    left: 200px;
+}
+
+h1 span {
+}
+
+.dictionary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4rem auto;
+    max-width: 90%;
+}
+
+
+
+.dictionary>.term {
+    text-align: center;
+    max-width: 20rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: all 100ms ease-in-out;
+}
+
+.dictionary>.term>dt {
+    margin-bottom: 1rem;
+}
+
+dt {
+    color: #2ec2b0;
+    line-height: 1;
+}
+
+dt span {
+    font-size: 200%;
+    font-weight: 900;
+}
+
+.emoji {
+    margin: 0 auto 20px;
+    display: block;
+    font-size: 400%;
+}
+
+dd {
+    font-size: 92.5%;
+    margin-left: 0;
+}
+
+dd dt {
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    font-size: inherit;
+}
+
+dd dl {
+    font-size: 90%;
+    margin: 1rem auto 0 auto;
+    letter-spacing: 0.33px;
+    max-width: 15rem;
+}
+
+dd dl .term {
+    margin-bottom: 1rem;
+} */

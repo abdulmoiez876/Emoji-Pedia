@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import emojiPedia from './emojipedia';
+import EmojiCard from './EmojiCard';
+
+function createEmojiCard(details) {
+  return (
+    <div className="col-3 shadow p-3 mb-5 bg-body rounded emoji-card"
+     id={details.name.replace(/\s+/g, '') +'emojiCard'}>
+      <EmojiCard
+        emoji={details.emoji}
+        title={details.name}
+        description={details.meaning}
+      />
+    </div>
+  )
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 className="header">EmojiPedia</h1>
+      <div className="row">
+        {emojiPedia.map(createEmojiCard)}
+      </div>
     </div>
-  );
+  )
 }
 
 export default App;
