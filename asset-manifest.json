@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/Emoji-Pedia/static/js/main.4dc9105d.js",
+    "index.html": "/Emoji-Pedia/index.html",
+    "main.4dc9105d.js.map": "/Emoji-Pedia/static/js/main.4dc9105d.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4dc9105d.js"
+  ]
+}

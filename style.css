@@ -1,0 +1,60 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.666;
+    background: #c0d2d4;
+    color: #555;
+}
+
+h1 {
+    text-align: center;
+}
+
+.emoji-card {
+    margin: 55px;
+}
+
+.emoji-card-hover {
+    text-align: center;
+    height: fit-content;
+    transition: all 2s;
+}
+
+.copyRight {
+    text-align: center;
+}
+
+.header {
+    padding: 5px 15px;
+    background: #2ec2b0;
+}
+
+.emojiCardHeader {
+    margin-left: -16px;
+    margin-right: -16px;
+    background: #B9FFFC;
+}
+
+.displayPara {
+    display: block;
+    transition: all 2s;
+}
+
+p {
+    display: none;
+}
+
+.backgroundBlur {
+    filter: blur(4px);
+    transition: all 2s;
+}
+
+.hoverCheck {
+    position: absolute;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 0 0 50px #26bbd9;
+    background-color: #2ec2b0;
+    z-index: 10;
+    transition: all 1000ms ease-in-out;
+}
